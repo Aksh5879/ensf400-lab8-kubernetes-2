@@ -9,5 +9,5 @@ spec: # specifications for our object
   - name: nginx  # the name of the container within the pod
     image: nginx # which container image should be pulled
     imagePullPolicy: IfNotPresent # image pull policy 
-  nodeSelector: # Nodeselector condition 
-    mynode: worker-x # label on the node where pod is going to deploy
+  nodeSelector: 
+    mynode: worker-x 
